@@ -29949,7 +29949,7 @@ _.c=c
 _.d=d
 _.e=e
 _.f=f},
-o3(){var s="application/json",r=A.aW1("http://171.22.26.37",B.rL,s,A.e(["Accept",s],t.N,t.z),B.rL,B.lL,new A.a91()),q=new A.a95($,new A.PM(A.a([B.HY],t.i6)),$,new A.a6m(A.b5c()),!1)
+o3(){var s="application/json",r=A.aW1("https://api.myscard.ir/admin/",B.rL,s,A.e(["Accept",s],t.N,t.z),B.rL,B.lL,new A.a91()),q=new A.a95($,new A.PM(A.a([B.HY],t.i6)),$,new A.a6m(A.b5c()),!1)
 q.W6$=r
 q.W7$=new A.a6T(A.aM(t.Gf))
 return new A.a90(q)},
@@ -98290,7 +98290,7 @@ arQ(a,b){var s=0,r=A.P(t.S),q,p=2,o,n,m,l,k,j,i
 var $async$rp=A.Q(function(c,d){if(c===1){o=d
 s=p}while(true)switch(s){case 0:p=4
 s=7
-return A.D(A.b77(A.fl("http://171.22.26.37/api/users/login/",0,null),A.e(["phone",a,"password",b],t.N,t.z)),$async$rp)
+return A.D(A.b77(A.fl("https://api.myscard.ir/admin//api/users/login/",0,null),A.e(["phone",a,"password",b],t.N,t.z)),$async$rp)
 case 7:n=d
 m=B.b6.hd(0,B.P.hd(0,n.w))
 s=n.b===200?8:10
@@ -98776,11 +98776,11 @@ $1(a){var s,r=null,q=this.b,p=t.w,o=A.bf(q,r,p).w
 p=A.bf(q,r,p).w
 q=A.bJ(15)
 s=this.a.c
-return A.kX(A.kc(!0,A.t4(B.a0b,B.h,new A.be(B.Oj,A.Tp(A.ch(A.a([A.aI(r,r,B.i,r,r,new A.aH(r,A.uL(B.dx,new A.k3("http://171.22.26.37/"+s.d),r),r,q,r,r,B.z),r,o.a.a*0.6,r,r,r,r,r,p.a.a),B.az,A.b7(s.b,r,r,r,r,r,r,r,B.afy,r,r,r),B.az,A.b7(s.c,r,r,r,r,r,r,r,B.aej,r,r,r)],t.p),B.p,B.x,B.aH),B.v,r,r,r,r,B.aq),r),r),!0,B.F,!0,!0),B.V)},
+return A.kX(A.kc(!0,A.t4(B.a0b,B.h,new A.be(B.Oj,A.Tp(A.ch(A.a([A.aI(r,r,B.i,r,r,new A.aH(r,A.uL(B.dx,new A.k3("https://api.myscard.ir/admin//"+s.d),r),r,q,r,r,B.z),r,o.a.a*0.6,r,r,r,r,r,p.a.a),B.az,A.b7(s.b,r,r,r,r,r,r,r,B.afy,r,r,r),B.az,A.b7(s.c,r,r,r,r,r,r,r,B.aej,r,r,r)],t.p),B.p,B.x,B.aH),B.v,r,r,r,r,B.aq),r),r),!0,B.F,!0,!0),B.V)},
 $S:607}
 A.ua.prototype={
 C(a){var s=null,r=A.bJ(30),q=A.bJ(15),p=this.c,o=t.p
-return new A.be(B.cZ,A.dK(!1,s,!0,A.aI(s,A.c3(A.a([new A.e_(1,B.aS,A.aI(s,s,B.i,s,s,new A.aH(s,A.uL(B.dx,new A.k3("http://171.22.26.37/"+p.d),s),s,q,s,s,B.z),s,80,s,s,s,s,s,150),s),B.co,new A.e_(2,B.aS,A.ch(A.a([A.c3(A.a([A.b7(p.b,s,s,s,s,s,s,s,B.m9,s,s,s),B.cp],o),B.p,B.x,B.t,B.V),B.pg,A.b7("\u0632\u0645\u0627\u0646 \u0645\u0637\u0627\u0644\u0639\u0647 : "+p.e+" \u062f\u0642\u06cc\u0642\u0647",s,s,s,s,s,s,s,B.acD,s,s,s)],o),B.n6,B.x,B.t),s)],o),B.p,B.x,B.t,B.V),B.i,s,s,new A.aH(B.h,s,s,r,B.l9,s,B.z),s,s,s,s,B.cZ,s,s,17976931348623157e292),s,!0,s,s,s,s,s,s,s,s,s,new A.a5C(this),s,s,s,s,s,s,s),s)}}
+return new A.be(B.cZ,A.dK(!1,s,!0,A.aI(s,A.c3(A.a([new A.e_(1,B.aS,A.aI(s,s,B.i,s,s,new A.aH(s,A.uL(B.dx,new A.k3("https://api.myscard.ir/admin//"+p.d),s),s,q,s,s,B.z),s,80,s,s,s,s,s,150),s),B.co,new A.e_(2,B.aS,A.ch(A.a([A.c3(A.a([A.b7(p.b,s,s,s,s,s,s,s,B.m9,s,s,s),B.cp],o),B.p,B.x,B.t,B.V),B.pg,A.b7("\u0632\u0645\u0627\u0646 \u0645\u0637\u0627\u0644\u0639\u0647 : "+p.e+" \u062f\u0642\u06cc\u0642\u0647",s,s,s,s,s,s,s,B.acD,s,s,s)],o),B.n6,B.x,B.t),s)],o),B.p,B.x,B.t,B.V),B.i,s,s,new A.aH(B.h,s,s,r,B.l9,s,B.z),s,s,s,s,B.cZ,s,s,17976931348623157e292),s,!0,s,s,s,s,s,s,s,s,s,new A.a5C(this),s,s,s,s,s,s,s),s)}}
 A.a5C.prototype={
 $0(){A.aGl($.aW(),new A.pZ(this.a.c,null),t.z)},
 $S:0}
@@ -98797,7 +98797,7 @@ s=A.ak(new A.a9(q,new A.aeM(),s),!0,s.h("ax.E"))
 q=s}return A.bO(new A.zs(!0,!1,230,10,$.jz(),$.aJ4(),B.Q4,q,a.ch,r),o.a.a*0.6,p.a.a)},
 $S:608}
 A.aeM.prototype={
-$1(a){var s=null,r=A.bJ(15),q=A.uL(B.dx,new A.k3("http://171.22.26.37/"+a.d),s),p=t.p
+$1(a){var s=null,r=A.bJ(15),q=A.uL(B.dx,new A.k3("https://api.myscard.ir/admin//"+a.d),s),p=t.p
 return A.dK(!1,s,!0,A.dK(!1,s,!0,A.aI(s,A.ch(A.a([B.cp,new A.be(B.aR,A.c3(A.a([A.b7(a.b,s,s,s,s,s,s,s,B.Fh,s,s,s)],p),B.p,B.x,B.t,B.V),s)],p),B.p,B.x,B.t),B.i,s,s,new A.aH(s,q,s,r,s,s,B.z),s,s,s,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,new A.aeL(a),s,s,s,s,s,s,s),s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s)},
 $S:609}
 A.aeL.prototype={
@@ -98878,7 +98878,7 @@ s.bV(0)
 A.wF(J.cO(a),B.c4)},
 $S:37}
 A.ak2.prototype={
-$1(a){A.aEC(A.fl("http://171.22.26.37/api/shop/send_request/"+a,0,null))},
+$1(a){A.aEC(A.fl("https://api.myscard.ir/admin//api/shop/send_request/"+a,0,null))},
 $S:212}
 A.ak3.prototype={
 $2(a,b){A.wF(J.cO(a),B.c4)},
@@ -99157,7 +99157,7 @@ k=A.bJ(15)
 s=this.a
 r=s.c
 q=r.b
-p=A.uL(B.dx,new A.k3("http://171.22.26.37/"+q.e),l)
+p=A.uL(B.dx,new A.k3("https://api.myscard.ir/admin//"+q.e),l)
 o=r.f
 n=o.gl(o)?B.nS:B.ts
 m=t.p
@@ -99169,7 +99169,7 @@ $S:0}
 A.vQ.prototype={
 C(a){return A.h7(new A.aiy(this),null,null,null,t.wa)}}
 A.aiy.prototype={
-$1(a){var s,r=null,q=A.bJ(0),p=this.a,o=p.c,n=o.b,m=A.uL(B.dx,new A.k3("http://171.22.26.37/"+n.e),r),l=A.a([A.R(0,0,0,0),A.R(153,0,0,0)],t.t_),k=t.p
+$1(a){var s,r=null,q=A.bJ(0),p=this.a,o=p.c,n=o.b,m=A.uL(B.dx,new A.k3("https://api.myscard.ir/admin//"+n.e),r),l=A.a([A.R(0,0,0,0),A.R(153,0,0,0)],t.t_),k=t.p
 l=A.aI(r,new A.be(B.O6,A.ch(A.a([new A.e_(1,B.aS,A.b7(n.b,r,r,r,r,r,r,r,B.Fh,r,r,r),r),B.pg,new A.e_(1,B.aS,A.b7(o.c,r,r,r,r,r,r,r,A.bH(r,r,A.R(204,255,255,255),r,r,r,r,r,r,r,r,14,r,r,r,r,r,!0,r,r,r,r,r,r,r,r),r,r,r),r)],k),B.n6,B.x,B.t),r),B.i,r,r,new A.aH(r,r,r,r,r,new A.iY(B.bV,B.cb,B.b3,l,r,r),B.z),r,100,r,r,r,r,r,1/0)
 n=a.db
 if(n.gl(n)){n=o.f
